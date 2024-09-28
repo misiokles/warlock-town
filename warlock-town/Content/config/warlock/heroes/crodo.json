@@ -1,0 +1,70 @@
+{
+	"h2crodo" :
+	{
+		"class" : "h2warlock",
+
+        "texts" :
+		{
+			"name" : "Crodo",
+			"biography" : "While under the service of Alamar, his choice of habitation was a swirling red Maelstrom.",
+			"specialty" :
+			{
+				"description" : "Bonus, Stone Skin",
+				"tooltip" : "Bonus, Stone Skin",
+				"name" : "Stone Skin"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "warlock/heroes/crodo/spec-small.png",
+			"specialtyLarge" : "warlock/heroes/crodo/spec-large.png",
+			"large" : "warlock/heroes/crodo/crodo.png",
+			"small" : "warlock/heroes/crodo/crodol.png"
+		},
+
+		"spellbook" :
+		[
+			"iceBolt"
+		],
+		"army" :
+		[
+			{
+				"creature" : "h2centaur",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "h2gargoyle",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "h2griffin",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.stoneSkin",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}

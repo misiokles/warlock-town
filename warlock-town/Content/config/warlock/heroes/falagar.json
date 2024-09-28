@@ -1,0 +1,52 @@
+{
+	"h2falagar" :
+	{
+		"class" : "h2warlock",
+		"texts" :
+		{
+			"name" : "Falagar",
+			"biography" : "Falagar is introduced as a simple Warlock, but there is more to him than meets the eye,",
+			"specialty" :
+			{
+				"description" : "Starts with advanced Tactics",
+				"tooltip" : "",
+				"name" : "Tactics"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "warlock/heroes/falagar/spec-small.bmp",
+			"specialtyLarge" : "warlock/heroes/falagar/spec-large.bmp",
+			"large" : "warlock/heroes/falagar/falagar.png",
+			"small" : "warlock/heroes/falagar/falagarl.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "h2centaur",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "h2gargoyle",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "h2griffin",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "tactics"
+			}
+		],
+		
+		"specialty": {}
+	}
+}

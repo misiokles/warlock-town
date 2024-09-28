@@ -1,0 +1,71 @@
+{
+	"h2alamar" :
+	{
+		"class" : "h2warlock",
+
+		"texts" :
+		{
+			"name" : "Alamar",
+			"biography" : "During the First War of Enrothian Succession in the early 1000s AS, Lord Alamar led the Warlock faction against three rivals: the Knights under Morglin Ironfist, the Sorceressess led by Queen Lamanda, and the Barbarians loyal to Lord Slayer. Alamar and his rivals vied for supreme control of Enroth, battling one another for the town of Gateway, rulership of the Archipelago of the Ancients, possession of the Eye of Goros and the mainland itself. Lord Ironfist displayed deep respect for his rival, chastising his cousin Ragnar Ironfist as a groveling beggar in the wake of the Warlock's power.",
+			"specialty" :
+			{
+				"description" : "Bonus, Intelligence",
+				"tooltip" : "Bonus, Intelligence",
+				"name" : "Intelligence"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "warlock/heroes/alamar/spec-small.png",
+			"specialtyLarge" : "warlock/heroes/alamar/spec-large.png",
+			"large" : "warlock/heroes/alamar/alamar.bmp",
+			"small" : "warlock/heroes/alamar/alamarl.bmp"
+		},
+
+		"spellbook" :
+		[
+			"dispel"
+		],
+
+
+		"army" :
+		[
+			{
+				"creature" : "h2gargoyle",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "h2gargoyle",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "h2gargoyle",
+				"max" : 10,
+				"min" : 5
+			},
+		],
+
+		"skills" : 
+		[
+			{
+				"level" : "advanced",
+				"skill" : "wisdom"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"intelligence" : {
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_PER_KNOWLEDGE_PERCENTAGE",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
+				}
+			}
+		}		
+	}
+}

@@ -1,0 +1,52 @@
+{
+	"warlock" :
+	{
+		"town" :
+		{
+			"structures" :
+			{
+				"mageGuild1" :     {"animation" : "warlock/town-screen/buildings/TBELmag1.def", "x" : 675, "y" : 25,  "z" : 5,  "border" : "warlock/town-screen/buildings-border/TOELmag1.bmp", "area" : "warlock/town-screen/buildings-area/TZELmag1.bmp" },
+				"mageGuild2" :     {"animation" : "warlock/town-screen/buildings/TBELmag2.def", "x" : 675, "y" : 25,  "z" : 5,  "border" : "warlock/town-screen/buildings-border/TOELmag2.bmp", "area" : "warlock/town-screen/buildings-area/TZELmag2.bmp" },
+				"mageGuild3" :     {"animation" : "warlock/town-screen/buildings/TBELmag3.def", "x" : 675, "y" : 25,  "z" : 5,  "border" : "warlock/town-screen/buildings-border/TOELmag3.bmp", "area" : "warlock/town-screen/buildings-area/TZELmag3.bmp" },
+                "mageGuild4" :     {"animation" : "warlock/town-screen/buildings/TBELmag4.def", "x" : 675, "y" : 25,  "z" : 5,  "border" : "warlock/town-screen/buildings-border/TOELmag4.bmp", "area" : "warlock/town-screen/buildings-area/TZELmag4.bmp" },
+				"mageGuild5" :     {"animation" : "warlock/town-screen/buildings/TBELmag5.def", "x" : 675, "y" : 25,  "z" : 5,  "border" : "warlock/town-screen/buildings-border/TOELmag5.bmp", "area" : "warlock/town-screen/buildings-area/TZELmag5.bmp" },
+				
+				"tavern" :         {"animation" : "warlock/town-screen/buildings/TBELtvrn.def", "x" : 590, "y" : 150,  "z" : 5,  "border" : "warlock/town-screen/buildings-border/TOELtvrn.bmp", "area" : "warlock/town-screen/buildings-area/TZELtvrn.bmp" },
+
+
+
+				"shipyard" :       {"animation" : "warlock/town-screen/buildings/TBELdock.def", "x" : 612, "y" : 256,  "z" : 8,  "border" : "warlock/town-screen/buildings-border/TOELdock.bmp", "area" : "warlock/town-screen/buildings-area/TZELdock.bmp" },
+
+
+				"fort" :           {"animation" : "warlock/town-screen/buildings/TBELcstl.def", "x" : 225, "y" : 27,  "z" : 6, "border" : "warlock/town-screen/buildings-border/TOELcstl.bmp", "area" : "warlock/town-screen/buildings-area/TZELcstl.bmp" },
+				"citadel" :        {"animation" : "warlock/town-screen/buildings/TBELcas2.def", "x" : 225, "y" : 27,  "z" : 7, "border" : "warlock/town-screen/buildings-border/TOELcstl.bmp", "area" : "warlock/town-screen/buildings-area/TZELCstl.bmp" },
+				"castle" :         {"animation" : "warlock/town-screen/buildings/TBELcas3.def", "x" : 223, "y" : 27,  "z" : 8, "border" : "warlock/town-screen/buildings-border/TOELCas3.bmp", "area" : "warlock/town-screen/buildings-area/TZELCas3.bmp" },
+				"villageHall" :    {"animation" : "warlock/town-screen/buildings/TBELhall.def", "x" : 638,  "y" : 155, "z" : 20,  "border" : "warlock/town-screen/buildings-border/TOELhall.bmp", "area" : "warlock/town-screen/buildings-area/TZELhall.bmp" },
+				"townHall" :       {"animation" : "warlock/town-screen/buildings/TBELhall.def", "x" : 638,  "y" : 155, "z" : 20,  "border" : "warlock/town-screen/buildings-border/TOELhall.bmp", "area" : "warlock/town-screen/buildings-area/TZELhall.bmp" },
+				"cityHall" :       {"animation" : "warlock/town-screen/buildings/TBELhall.def", "x" : 638,  "y" : 155, "z" : 20,  "border" : "warlock/town-screen/buildings-border/TOELhall.bmp", "area" : "warlock/town-screen/buildings-area/TZELhall.bmp" },
+				"capitol" :        {"animation" : "warlock/town-screen/buildings/TBELhall.def", "x" : 638,  "y" : 155, "z" : 20,  "border" : "warlock/town-screen/buildings-border/TOELhall.bmp", "area" : "warlock/town-screen/buildings-area/TZELhall.bmp" },
+				"marketplace" :    {"animation" : "warlock/town-screen/buildings/TBELmark.def", "x" : 468, "y" : 233, "z" : 21,  "border" : "warlock/town-screen/buildings-border/TOELmark.bmp", "area" : "warlock/town-screen/buildings-area/TZELmark.bmp" },
+				"special1" :   {"animation" : "warlock/town-screen/buildings/TBELsilo.def", "x" : 384, "y" : 282, "z" : 20,  "border" : "warlock/town-screen/buildings-border/TOELsilo.bmp", "area" : "warlock/town-screen/buildings-area/TZELsilo.bmp" },
+				"blacksmith" :     {"animation" : "warlock/town-screen/buildings/TBELblak.def", "x" : 482, "y" : 110, "z" : 9,  "border" : "warlock/town-screen/buildings-border/TOELblak.bmp", "area" : "warlock/town-screen/buildings-area/TZELblak.bmp" },
+				"resourceSilo" :       {"animation" : "warlock/town-screen/buildings/TBELspec.def", "x" : 680, "y" : 215, "z" : 7,  "border" : "warlock/town-screen/buildings-border/TOELspec.bmp", "area" : "warlock/town-screen/buildings-area/TZELspec.bmp" },
+				"horde1" :         {"animation" : "warlock/town-screen/buildings/TBELhrd1.def", "x" : 0, "y" : 33, "z" : 6,  "border" : "warlock/town-screen/buildings-border/TOELhrd1.bmp", "area" : "warlock/town-screen/buildings-area/TZELhrd1.bmp", "hidden" : true },
+				"ship" :           {"animation" : "warlock/town-screen/buildings/TBELboat.def", "x" : 612, "y" : 252, "z" : 9,  "border" : "warlock/town-screen/buildings-border/TOELship.bmp", "area" : "warlock/town-screen/buildings-area/TZELship.bmp", "hidden" : true },
+				
+				"statue" :       {"animation" : "warlock/town-screen/buildings/TBELext6.def", "x" : 510, "y" : 218, "z" : 12,  "border" : "warlock/town-screen/buildings-border/TOELext6.bmp", "area" : "warlock/town-screen/buildings-area/TZELext6.bmp" },
+				
+				"grail" :          {"animation" : "warlock/town-screen/buildings/TBELholy.def", "x" : 377, "y" : 0, "z" : 2,  "border" : "warlock/town-screen/buildings-border/TOELholy.bmp", "area" : "warlock/town-screen/buildings-area/TZELholy.bmp" },
+				"dwellingLvl2" :   {"animation" : "warlock/town-screen/buildings/TBELdw_0.def", "x" : 260, "y" : 233, "z" : 12,  "border" : "warlock/town-screen/buildings-border/TOELdw_0.bmp", "area" : "warlock/town-screen/buildings-area/TZELdw_0.bmp" },
+				"dwellingLvl1" :   {"animation" : "warlock/town-screen/buildings/TBELdw_1.def", "x" : 0, "y" : 33, "z" : 4,  "border" : "warlock/town-screen/buildings-border/TOELdw_1.bmp", "area" : "warlock/town-screen/buildings-area/TZELdw_1.bmp" },
+				"dwellingLvl3" :   {"animation" : "warlock/town-screen/buildings/TBELdw_2.def", "x" : 490, "y" : 62, "z" : 3, "border" : "warlock/town-screen/buildings-border/TOELdw_2.bmp", "area" : "warlock/town-screen/buildings-area/TZELdw_2.bmp" },
+				"dwellingLvl5" :   {"animation" : "warlock/town-screen/buildings/TBELdw_3.def", "x" : 93, "y" : 145, "z" : 3, "border" : "warlock/town-screen/buildings-border/TOELdw_3.bmp", "area" : "warlock/town-screen/buildings-area/TZELdw_3.bmp" },
+				"dwellingLvl4" :   {"animation" : "warlock/town-screen/buildings/TBELdw_4.def", "x" : 170, "y" : 231, "z" : 10, "border" : "warlock/town-screen/buildings-border/TOELdw_4.bmp", "area" : "warlock/town-screen/buildings-area/TZELDw_4.bmp" },
+				"dwellingLvl7" :   {"animation" : "warlock/town-screen/buildings/TBELdw_6.def", "x" : 100, "y" : 27, "z" : 16,  "border" : "warlock/town-screen/buildings-border/TOELdw_6.bmp", "area" : "warlock/town-screen/buildings-area/TZELdw_6.bmp" },
+				"dwellingLvl6" :   {"animation" : "warlock/town-screen/buildings/TBELdw_5.def", "x" : 0, "y" : 224,  "z" : 14, "border" : "warlock/town-screen/buildings-border/TOELdw_5.bmp", "area" : "warlock/town-screen/buildings-area/TZELdw_5.bmp" },
+				"dwellingUpLvl4" : {"animation" : "warlock/town-screen/buildings/TBELup_4.def", "x" : 170, "y" : 230, "z" : 10, "border" : "warlock/town-screen/buildings-border/TOELup_4.bmp", "area" : "warlock/town-screen/buildings-area/TZELup_4.bmp" },
+				"dwellingUpLvl7" : {"animation" : "warlock/town-screen/buildings/TBELup_6.def", "x" : 100, "y" : 27, "z" : 17,  "border" : "warlock/town-screen/buildings-border/TOELdw_6.bmp", "area" : "warlock/town-screen/buildings-area/TZELdw_6.bmp" },
+			    "dwellingUpLvl8" : {"animation" : "warlock/town-screen/buildings/TBELup_5.def", "x" : 100, "y" : 27, "z" : 20,  "border" : "warlock/town-screen/buildings-border/TOELup_5.bmp", "area" : "warlock/town-screen/buildings-area/TZELup_5.bmp" },
+			}
+		}
+	}
+}
+

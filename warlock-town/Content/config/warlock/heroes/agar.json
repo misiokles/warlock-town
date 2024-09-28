@@ -1,0 +1,55 @@
+{
+	"h2agar" : 
+	{
+		"class" : "h2warlock",
+
+
+		"images" :
+		{
+			"specialtySmall" : "warlock/heroes/agar/spec-small.png",
+			"specialtyLarge" : "warlock/heroes/agar/spec-large.png",
+			"large" : "warlock/heroes/agar/agar.png",
+			"small" : "warlock/heroes/agar/agarl.png"
+		},
+        "texts" :
+		{
+			"name" : "Agar",
+			"biography" : "Agar started out as an ambitious middle aged Warlock serving Alamar. After serving (and losing alongside) Archibald Ironfist, he decides to stay in Enroth and is not heard from again...",
+			"specialty" :
+			{
+				"description" : "Bonus, Medusas",
+				"tooltip" : "Bonus, Medusas",
+				"name" : "Medusa"
+			}
+		},
+		"army" :
+		[
+			{
+				"creature" : "h2centaur",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "h2gargoyle",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "h2gargoyle",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "advanced",
+				"skill" : "scouting"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "h2medusa"
+		}
+    }
+}	

@@ -1,0 +1,69 @@
+{
+	"h2wrathmont" :
+	{
+		"class" : "h2warlock",
+		"texts" :
+		{
+			"name" : "Wrathmont",
+			"biography" : "Little to no information is available on the mysterious warlock Wrathmont",
+			"specialty" :
+			{
+				"description" : "Bonus, Berserk",
+				"tooltip" : "Bonus, Berserk",
+				"name" : "Berserk"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "warlock/heroes/wrathmont/spec-small.png",
+			"specialtyLarge" : "warlock/heroes/wrathmont/spec-large.png",
+			"large" : "warlock/heroes/wrathmont/wrathmont.png",
+			"small" : "warlock/heroes/wrathmont/wrathmontl.png"
+		},
+
+		"spellbook" :
+		[
+			"weakness"
+		],
+		"army" :
+		[
+			{
+				"creature" : "h2centaur",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "h2gargoyle",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "h2griffin",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "waterMagic"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"prayer" : {
+					"addInfo" : 0,
+					"subtype" : "spell.berserk",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
+

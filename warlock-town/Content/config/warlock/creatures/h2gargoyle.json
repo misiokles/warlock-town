@@ -1,0 +1,57 @@
+{
+	"h2gargoyle":
+	{
+		"advMapAmount" :
+		{
+			"max" : 30,
+			"min" : 16
+		},
+		"faction" : "warlock",
+		"aiValue" : 171,
+		"attack" : 4,
+		"cost" :
+		{
+			"gold" : 200
+		},
+		"damage" :
+		{
+			"max" : 5,
+			"min" : 2
+		},
+		"defense" : 7,
+		"fightValue" : 152,
+		"graphics" :
+		{
+			"animation" : "warlock/battle/CR197.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "warlock/map/lilgarg.def",
+			"iconSmall" : "warlock/iconsSmall/CPrS197F.bmp",
+			"iconLarge" : "warlock/iconsBig/CPrL197B.bmp",
+			"timeBetweenFidgets" : 1,
+		},			
+		"growth" : 6,
+		"hitPoints" : 18,
+        "level" : 2,
+		"name" : { "plural" : "Gargoyles", "singular" : "Gargoyle" },
+		"sound" :
+		{
+			"attack": "SGRGATTK.wav",
+			"defend": "SGRGDFND.wav",
+			"killed": "SGRGKILL.wav",
+			"move": "SGRGMOVE.wav",
+			"wince": "SGRGWNCE.wav"
+		},
+		"speed" : 6,
+"abilities" :
+		{
+                     "nonliving" :
+			{
+				"type" : "NON_LIVING"
+			},
+           		"flying" :
+			{
+				"type" : "FLYING"
+			}
+		}
+	}
+}

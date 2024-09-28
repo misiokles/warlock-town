@@ -1,0 +1,71 @@
+{
+	"h2centaur":
+	{
+		"advMapAmount" :
+		{
+			"max" : 50,
+			"min" : 20
+		},
+		"faction" : "warlock",
+		"aiValue" : 100,
+		"attack" : 4,
+		"cost" :
+		{
+			"gold" : 60
+		},
+		"damage" :
+		{
+			"max" : 2,
+			"min" : 1
+		},
+		"defense" : 4,
+		"fightValue" : 110,
+		"graphics" :
+		{
+			"animation" : "warlock/battle/CR199.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "warlock/map/lilcent.def",
+			"iconSmall" : "warlock/iconsSmall/CPrS199F.bmp",
+			"iconLarge" : "warlock/iconsBig/CPrL199B.bmp",
+			"missile" : {
+		            "attackClimaxFrame" : 8,
+		            "frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0],
+			        "offset" :
+				{
+					"upperX" : 41,
+					"upperY" : -59,
+					"middleX" : 58,
+					"middleY" : -59,
+					"lowerX" : 29,
+					"lowerY" : -59
+				},
+     				"projectile" : "PELFX.DEF",		
+			},		
+		         	"timeBetweenFidgets" : 1,
+		},	
+		"growth" : 8,
+		"hitPoints" : 5,
+	    "doubleWide" : true,
+		"horde" : 8,
+		"level" : 1,
+		"name" : { "plural" : "Centaurs", "singular" : "Centaur" },
+		"shots" : 12,			
+		"sound" :
+		{
+			"attack": "WELFATTK.wav",
+			"defend": "CNTRDFND.wav",
+			"killed": "CNTRKILL.wav",
+			"move": "CNTRMOVE.wav",
+			"shoot": "WELFSHOT.wav",
+			"wince": "CNTRWNCE.wav"
+		},
+		"speed" : 4,
+        "abilities" :
+        {
+		"shooter" :
+			{
+				"type" : "SHOOTER"
+			}
+		}
+	}
+}

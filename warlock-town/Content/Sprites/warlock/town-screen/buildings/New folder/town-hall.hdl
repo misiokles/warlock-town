@@ -1,0 +1,11 @@
+[Data]
+Type=7
+Shadow Type=0
+Groups Number=1
+Group0=0.bmp|1.bmp|2.bmp|3.bmp|4.bmp|5.bmp|6.bmp|7.bmp|8.bmp|9.bmp|10.bmp|11.bmp|12.bmp|13.bmp|14.bmp|15.bmp|16.bmp|17.bmp|18.bmp|19.bmp|20.bmp|21.bmp|22.bmp|23.bmp|24.bmp|25.bmp|26.bmp|27.bmp|28.bmp|29.bmp|30.bmp|31.bmp|32.bmp|33.bmp|34.bmp|35.bmp|36.bmp|37.bmp|38.bmp|39.bmp|40.bmp|41.bmp|42.bmp|43.bmp|
+Generate Selection=0
+ColorsBox.Colors=$FFFF00|$FF96FF|$000300|$001700|$FF00FF|$131313|$241C08|$2C0010|
+ShadowColorsBox.Colors=$FFFF00|$FF96FF|$000300|$001700|$FF00FF|$131313|$241C08|$2C0010|
+ColorsBox.PlayerColors=$ECCA42|$4CF512|$000300|$B40AB9|$80F512|$E7C487|$900D27|$880100|$000000|$000000|$880100|$CDABBA|$000000|$D0F512|$880100|$F8F512|$ACF512|$B969CD|$200000|$F8F512|$41C687|$FEC587|$4F0BB9|$407382|$880100|$48FFFF|$240000|$010000|$000000|$ACE572|$600000|$FFFFFF|
+ColorsBox.ColorChecks=1|0|0|0|0|0|0|0|0|
+ShadowColorsBox.ColorChecks=1|1|1|1|1|1|1|1|

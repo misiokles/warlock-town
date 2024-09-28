@@ -1,0 +1,71 @@
+{
+	"h2arie" :
+	{
+		"class" : "h2warlock",
+        "texts" :
+		{
+			"name" : "Arie",
+			"biography" : "Little is known about Arie, except that he served Alamar and then Archibald respectively.",
+			"specialty" :
+			{
+				"description" : "+350 Gold per day",
+				"tooltip" : "",
+				"name" : "+350 Gold"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "warlock/heroes/arie/spec-small.png",
+			"specialtyLarge" : "warlock/heroes/arie/spec-large.png",
+			"large" : "warlock/heroes/arie/arie.png",
+			"small" : "warlock/heroes/arie/ariel.png"
+		},
+
+		"spellbook" :
+		[
+		       "viewEarth"
+		],
+
+		"army" :
+		[
+			{
+				"creature" : "h2centaur",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "h2gargoyle",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "h2gargoyle",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "wisdom"
+			},
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "resource.gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		}
+	}
+}
+

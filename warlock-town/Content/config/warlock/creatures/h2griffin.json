@@ -1,0 +1,58 @@
+{
+	"h2griffin":
+	{
+		"advMapAmount" :
+		{
+			"max" : 25,
+			"min" : 12
+		},
+		"faction" : "warlock",
+		"aiValue" : 293,
+		"attack" : 6,
+		"cost" :
+		{
+			"gold" : 300
+		},
+		"damage" :
+		{
+			"max" : 6,
+			"min" : 3
+		},
+		"defense" : 6,
+		"fightValue" : 260,
+		"graphics" :
+		{
+			"animation" : "warlock/battle/CR201.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "warlock/map/lilgriff.def",
+			"iconSmall" : "warlock/iconsSmall/CPRS201F.bmp",
+			"iconLarge" : "warlock/iconsBig/CPrL201B.bmp",
+			"timeBetweenFidgets" : 1,
+              },
+		"growth" : 4,
+		"hitPoints" : 25,
+		"level" : 3,
+		"name" : { "plural" : "Griffins", "singular" : "Griffin" },
+		"sound" :
+		{
+			"attack": "GRIFATTK.wav",
+			"defend": "GRIFDFND.wav",
+			"killed": "GRIFKILL.wav",
+			"move": "GRIFMOVE.wav",
+			"wince": "GRIFWNCE.wav"
+		},
+		"speed" : 4,
+	    "doubleWide" : true,
+		"abilities":
+		{
+			"extraRetaliation" :
+			{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+			"flying" :
+			{
+				"type" : "FLYING"
+			}
+		}
+	}
+}

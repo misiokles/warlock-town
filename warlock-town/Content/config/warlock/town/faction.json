@@ -1,0 +1,133 @@
+{
+	"warlock" :
+	{
+		"name" : "Warlock",
+		"creatureBackground" :
+		{
+			"120px" : "warlock/creature-bg-120px",
+			"130px" : "warlock/creature-bg-130px"
+		},
+		"nativeTerrain": "dirt",
+		"alignment" : "evil",
+		"boat" : "boatCastle",
+	
+
+		"town" :
+		{
+			"musicTheme" : "music/warlock/theme",
+			"defaultTavern" : 5,
+			"tavernVideo" : "TAVERN.BIK",
+			"guildBackground" : "TPMAGE.bmp",
+			"townBackground": "warlock/town-screen/background",
+			"guildWindow": "warlock/town-screen/mage-guild",
+			"hallBackground": "TPTHBKFR",
+			"hallSlots":
+			[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ], [ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith" ] ],
+				[ [ "marketplace", "resourceSilo" ], [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ], [ "shipyard" ] ],
+				[ [ "special1" ], [ "statue" ], [ "horde1" ] ],
+				[ [ "dwellingLvl1" ], [ "dwellingLvl2" ], [ "dwellingLvl3" ], [ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5" ], [ "dwellingLvl6" ], [ "dwellingLvl7", "dwellingUpLvl7", "dwellingUpLvl8" ] ]
+			],
+			"creatures" :
+			[
+				[ "h2centaur" ],
+				[ "h2gargoyle" ],
+				[ "h2griffin" ],
+				[ "h2mino", "h2minok" ],
+				[ "h2hydra" ],
+				[ "h2medusa" ],
+				[ "h2gred", "h2redd", "h2blackd" ]
+			],
+			"moatAbility" : "castleMoat",
+			"horde" : [ 0, -1 ],
+			"mageGuild" : 3,
+			"primaryResource" : "crystal",
+			"warMachine" : "ballista",
+			"buildingsIcons" : "warlock/town-hall.def",
+			"icons" :
+			{
+				"village" : {
+					"normal" : {
+						"small" : "warlock/icons/hall-small.bmp",
+						"large" : "warlock/icons/hall-big.bmp"
+					},
+					"built" : {
+						"small" : "warlock/icons/hall-builded-small.bmp",
+						"large" : "warlock/icons/hall-builded-big.bmp"
+					}
+				},
+				"fort" : {
+					"normal" : {
+						"small" : "warlock/icons/fort-small.bmp",
+						"large" : "warlock/icons/fort-big.bmp"
+					},
+					"built" : {
+						"small" : "warlock/icons/fort-builded-small.bmp",
+						"large" : "warlock/icons/fort-builded-big.bmp"
+					}
+				}
+			},
+
+			"mapObject" : {
+			"capitol" : "warlock/adventure-map/town-capitol",
+				"castle" :  "warlock/adventure-map/town-castle",
+				"village" : "warlock/adventure-map/town-village",
+				"filters" : {
+					"castle" : [ "allOf", [ "castle" ], [ "noneOf", [ "capitol" ] ] ],
+					"citadel" : [ "allOf", [ "citadel" ], [ "noneOf", [ "castle" ] ] ],
+					"fort" : [ "allOf", [ "fort" ], [ "noneOf", [ "citadel" ] ] ]
+				},
+				"templates" : {
+					"capitol" : { "animation" : "warlock/adventure-map/town-capitol.def" },
+					"castle" : { "animation" : "warlock/adventure-map/town-castle.def" },
+					"citadel" : { "animation" : "warlock/adventure-map/town-castle.def" },
+					"fort" : { "animation" : "warlock/adventure-map/town-castle.def" },
+					"village" : { "animation" : "warlock/adventure-map/town-village.def" }
+				}
+			},
+			"names" :
+			[
+				"Xanadu",
+				"Hangval",
+				"Jalina",
+				"Firios",
+				"Windhaven",
+				"Bathiere",
+				"Spring Falls",
+				"Gem Moor",
+				"Willow",
+				"New Forest",
+				"New Elfwind",
+				"Wenlan",
+				"Vintyl",
+				"Sylina",
+				"Hallin",
+				"Rael"
+			],
+
+
+			"tavern" :
+			{
+				"knight"       : 4,
+				"cleric"       : 4,
+				"ranger"       : 4,
+				"druid"        : 4,
+				"alchemist"    : 4,
+				"wizard"       : 4,
+				"demoniac"     : 4,
+				"heretic"      : 4,
+				"deathknight"  : 4,
+				"necromancer"  : 4,
+				"warlock"      : 6,
+				"overlord"     : 4,
+				"barbarian"    : 4,
+				"battlemage"   : 4,
+				"beastmaster"  : 4,
+				"witch"        : 4,
+				"planeswalker" : 4,
+				"elementalist" : 4,
+			}
+		}
+	}
+}

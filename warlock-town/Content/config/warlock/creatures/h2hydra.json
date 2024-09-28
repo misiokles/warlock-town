@@ -1,0 +1,58 @@
+{
+	"h2hydra":
+	{
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 8
+		},
+		"faction" : "warlock",
+		"aiValue" : 1112,
+		"attack" : 8,
+		"cost" :
+		{
+			"gold" : 800
+		},
+		"damage" :
+		{
+			"max" : 15,
+			"min" : 6
+		},
+		"defense" : 9,
+		"fightValue" : 880,
+		"graphics" :
+		{
+			"animation" : "warlock/battle/CR203.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "warlock/map/lilhydra.def",
+			"iconSmall" : "warlock/iconsSmall/CPRS203F.bmp",
+			"iconLarge" : "warlock/iconsBig/CPrL203B.bmp",
+			"timeBetweenFidgets" : 1,
+			},
+		"growth" : 3,
+		"hitPoints" : 75,
+	    "doubleWide" : true,
+		"level" : 5,
+		"name" : { "plural" : "Hydras", "singular" : "Hydra" },
+		"sound" :
+		{
+			"attack": "HYDRATTK.wav",
+			"defend": "HYDRDFND.wav",
+			"killed": "HYDRKILL.wav",
+			"move": "HYDRMOVE.wav",
+			"wince": "HYDRWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities":
+		{
+			"noRetaliate" :
+			{
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"attackAll" :
+			{
+				"type" : "ATTACKS_ALL_ADJACENT"
+			}
+		}
+	}
+}

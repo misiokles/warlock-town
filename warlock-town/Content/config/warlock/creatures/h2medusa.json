@@ -1,0 +1,57 @@
+{
+	"h2medusa":
+	{
+		"advMapAmount" :
+		{
+			"max" : 12,
+			"min" : 6
+		},
+		"faction" : "warlock",
+		"aiValue" : 1586,
+		"attack" : 9,
+		"cost" :
+		{
+			"gold" : 800
+		},
+		"damage" :
+		{
+			"max" : 18,
+			"min" : 8
+		},
+		"defense" : 10,
+		"fightValue" : 1363,
+		"graphics" :
+		{
+			"animation" : "warlock/battle/CR207.DEF",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "warlock/map/lilmedusa.def",
+			"iconSmall" : "warlock/iconsSmall/CPRS207F.bmp",
+			"iconLarge" : "warlock/iconsBig/CPrL207B.bmp",
+			"timeBetweenFidgets" : 1,
+		},
+		"doubleWide" : true,
+		"growth" : 2,
+		"hitPoints" : 65,
+		"level" : 6,
+		"name" : { "plural" : "Medusas", "singular" : "Medusa" },
+		"sound" :
+		{
+			"attack": "MEDUATTK.wav",
+			"defend": "MEDUDFND.wav",
+			"killed": "MEDUKILL.wav",
+			"move": "MEDUMOVE.wav",
+			"wince": "MEDUWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities":
+		{
+			"petrification" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.stoneGaze",
+				"val" : 20,
+				"addInfo" : [0, 0]
+			}
+		}
+	}
+	}

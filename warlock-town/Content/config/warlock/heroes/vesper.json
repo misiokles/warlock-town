@@ -1,0 +1,60 @@
+{
+	"h2vesper" :
+	{
+		"class" : "h2warlock",
+		"texts" :
+		{
+			"name" : "Vesper",
+			"biography" : "Little is known about Vesper.",
+			"specialty" :
+			{
+				"description" : "Bonus, Hydras",
+				"tooltip" : "Bonus, Hydras",
+				"name" : "Bonus, Hydras"
+			}
+		},
+		"images" :
+		{
+			
+			"specialtySmall" : "warlock/heroes/vesper/spec-small.png",
+			"specialtyLarge" : "warlock/heroes/vesper/spec-large.png",
+			"large" : "warlock/heroes/vesper/vesper.png",
+			"small" : "warlock/heroes/vesper/vesperl.png"
+		},
+		"army" :
+		[
+			{
+				"creature" : "h2centaur",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "h2gargoyle",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "h2griffin",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "scouting"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "h2hydra"
+		}
+	}
+}
+

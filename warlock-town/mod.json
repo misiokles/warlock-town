@@ -1,0 +1,73 @@
+{
+	"name" : "warlock town",
+	"description" : "Warlock Town from Homm2",
+	"author" : "Acidchalk",
+	"contact" : "",
+	"version" : "0.2",
+	"modType" : "Town",
+	"compatibility" :
+	{
+		"min" : "1.5"
+	},
+	"changelog" :
+	{
+		"0.2"   : [ "Update to vcmi-1.5 format" ],
+		"0.1"   : [ "Initial release" ]
+	},		
+
+
+	"factions" :
+	[
+		"config/warlock/town/buildings.json",
+		"config/warlock/town/faction.json",
+		"config/warlock/town/siege.json",
+		"config/warlock/town/spells.json",
+		"config/warlock/town/structures.json",
+		"config/warlock/town/puzzle.json"
+	],
+	"creatures" :
+	[
+
+		"config/warlock/creatures/h2centaur.json",
+
+		"config/warlock/creatures/h2gargoyle.json",
+
+
+		"config/warlock/creatures/h2griffin.json",
+
+
+		
+		"config/warlock/creatures/h2hydra.json",
+
+
+		"config/warlock/creatures/h2mino.json",
+		"config/warlock/creatures/h2minok.json",
+
+		"config/warlock/creatures/h2medusa.json",
+		
+		"config/warlock/creatures/h2gred.json",
+		"config/warlock/creatures/h2redd.json",
+		"config/warlock/creatures/h2blackd.json"
+		
+
+	],
+	"heroClasses" :
+	[
+		"config/warlock/classes/h2warlock.json",
+		"config/warlock/classes/h2warlockfem.json"
+	],
+	"heroes" :
+	[
+		"config/warlock/heroes/agar.json",
+		"config/warlock/heroes/alamar.json",
+		"config/warlock/heroes/arch.json",
+		"config/warlock/heroes/arie.json",
+		"config/warlock/heroes/barok.json",
+		"config/warlock/heroes/crodo.json",
+		"config/warlock/heroes/falagar.json",
+		"config/warlock/heroes/kastore.json",
+		"config/warlock/heroes/martine.json",
+		"config/warlock/heroes/vesper.json",
+		"config/warlock/heroes/wrathmont.json"
+	]
+}

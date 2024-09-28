@@ -1,0 +1,57 @@
+{
+	"h2minok":
+	{
+		"advMapAmount" :
+		{
+			"max" : 16,
+			"min" : 10
+		},
+		"faction" : "warlock",
+		"aiValue" : 729,
+		"attack" : 9,
+		"cost" :
+		{
+			"gold" : 500
+		},
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 9
+		},
+		"defense" : 8,
+		"fightValue" : 689,
+		"graphics" :
+		{
+			"animation" : "warlock/battle/CR206.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "warlock/map/lilminok.def",
+			"iconSmall" : "warlock/iconsSmall/CPrS206F.bmp",
+			"iconLarge" : "warlock/iconsBig/CPrL206B.bmp",
+			"timeBetweenFidgets" : 1,
+              },
+
+		"growth" : 3,
+		"hitPoints" : 45,
+		"level" : 4,
+	    "name" : { "plural" : "Minotaur Kings", "singular" : "Minotaur King" },
+		"sound" :
+		{
+			"attack": "MINKATTK.wav",
+			"defend": "MINKDFND.wav",
+			"killed": "MINKKILL.wav",
+			"move": "MINKMOVE.wav",
+			"shoot": "MINKSHOT.wav",
+			"wince": "MINKWNCE.wav"
+		},
+		"speed" : 6,
+		"abilities" :
+		{
+			"fearless" :
+			{
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			}
+		}	
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"h2gred":
+	{
+		"advMapAmount" :
+		{
+			"max" : 8,
+			"min" : 3
+		},
+		"faction" : "warlock",
+		"aiValue" : 9000,
+		"attack" : 12,
+		"cost" :
+		{
+			"gold" : 3000,
+			"sulfur" : 1
+		},
+		"damage" :
+		{
+			"max" : 50,
+			"min" : 25
+		},
+		"defense" : 12,
+		"fightValue" : 7635,
+		"graphics" :
+		{
+			"animation" : "warlock/battle/CR211.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "warlock/map/lilgreen.def",
+			"iconSmall" : "warlock/iconsSmall/CPrS211F.bmp",
+			"iconLarge" : "warlock/iconsBig/CPrL211B.bmp",
+			"timeBetweenFidgets" : 1,
+		},
+		"doubleWide" : true,
+		"growth" : 1,
+		"hitPoints" : 200,
+		"level" : 7,
+		"name" : { "plural" : "Green Dragons", "singular" : "Green Dragon" },
+		"sound" :
+		{
+			"attack": "GRDRATTK.wav",
+			"defend": "GRDRDFND.wav",
+			"killed": "GRDRKILL.wav",
+			"move": "GRDRMOVE.wav",
+			"wince": "GRDRWNCE.wav"                   
+		},
+		"speed" : 4,
+		"abilities":
+		{
+			"dragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"fireBreath" :
+			{
+				"type" : "TWO_HEX_ATTACK_BREATH"
+			},
+			"spellImmunity" :
+			{
+				"type" : "LEVEL_SPELL_IMMUNITY",
+				"val" : 4
+			}
+		},
+	}
+}

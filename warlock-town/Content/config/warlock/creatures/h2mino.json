@@ -1,0 +1,60 @@
+{
+	"h2mino":
+	{
+		"advMapAmount" :
+		{
+			"max" : 20,
+			"min" : 10
+		},
+		"faction" : "warlock",
+		"aiValue" : 586,
+		"attack" : 9,
+		"cost" :
+		{
+			"gold" : 400
+		},
+		"damage" :
+		{
+			"max" : 12,
+			"min" : 7
+		},
+		"defense" : 8,
+		"fightValue" : 559,
+		"graphics" :
+		{
+			"animation" : "warlock/battle/CR205.def",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+			"map" : "warlock/map/lilmino.def",
+			"iconSmall" : "warlock/iconsSmall/CPrS205F.bmp",
+			"iconLarge" : "warlock/iconsBig/CPrL205B.bmp",
+			"timeBetweenFidgets" : 1,
+              },
+
+		"growth" : 3,
+		"hitPoints" : 35,
+		"level" : 4,
+		"name" : { "plural" : "Minotaurs", "singular" : "Minotaur" },
+		"upgrades":
+		[
+			"h2minok"
+		],
+		"sound" :
+		{
+			"attack": "MINOATTK.wav",
+			"defend": "MINODFND.wav",
+			"killed": "MINOKILL.wav",
+			"move": "MINOMOVE.wav",
+			"wince": "MINOWNCE.wav"
+		},
+		"speed" : 4,
+		"abilities" :
+		{
+			"fearless" :
+			{
+				"type" : "MORALE",
+				"val" : 1,
+				"valueType" : "INDEPENDENT_MAX"
+			}
+		}	
+	}
+}

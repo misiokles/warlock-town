@@ -1,0 +1,390 @@
+{
+	"warlock" :
+	{
+		"town" :
+		{
+			"buildings" :
+			{
+				"mageGuild1" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 1",
+					"cost" :
+					{
+						"wood" : 5,
+						"ore" : 5,
+						"gold" : 2000
+					},
+					"id" : 0
+				},
+				"mageGuild2" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 2",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 4,
+						"ore" : 5,
+						"sulfur" : 4,
+						"crystal" : 4,
+						"gems" : 4,
+						"gold" : 1000
+					},
+					"id" : 1,
+					"upgrades" : "mageGuild1"
+				},
+				"mageGuild3" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 3",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 6,
+						"ore" : 5,
+						"sulfur" : 6,
+						"crystal" : 6,
+						"gems" : 6,
+						"gold" : 1000
+					},
+					"id" : 2,
+					"upgrades" : "mageGuild2"
+				},
+				"mageGuild4" : 
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 4",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 8,
+						"ore" : 5,
+						"sulfur" : 8,
+						"crystal" : 8,
+						"gems" : 8,
+						"gold" : 1000
+					},
+					"id" : 3,
+					"upgrades" : "mageGuild3"
+				},
+				"mageGuild5" :
+				{
+					"description" : "Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"name" : "Mage Guild Level 5",
+					"cost" :
+					{
+						"wood" : 5,
+						"mercury" : 10,
+						"ore" : 5,
+						"sulfur" : 10,
+						"crystal" : 10,
+						"gems" : 10,
+						"gold" : 1000
+					},
+					"id" : 4,
+					"upgrades" : "mageGuild4"
+				},
+				"tavern" :
+				{
+					"name" : "Tavern",
+					"description" : "The Tavern increases morale for troops defending the city.",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 5
+				},
+				"shipyard" :
+				{
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
+					"cost" :
+					{
+						"wood" : 20,
+						"gold" : 2000
+					},
+					"id" : 6
+				},
+				"fort" :
+				{
+					"name" : "Fort",
+					"description" : "The Fort provides your town with defensive walls.",
+					"cost" :
+					{
+						"wood" : 20,
+						"ore" : 20,
+						"gold" : 5000
+					},
+					"id" : 7
+				},
+				"citadel" :
+				{
+					"name" : "Citadel",
+					"description" : "Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 2500
+					},
+					"id" : 8,
+					"upgrades" : "fort"
+				},
+				"castle" :
+				{
+					"name" : "Castle",
+					"description" : "The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"cost" :
+					{
+						"wood" : 10,
+						"ore" : 10,
+						"gold" : 5000
+					},
+					"id" : 9,
+					"upgrades" : "citadel"
+				},
+				"villageHall" :
+				{
+					"name" : "Village Hall",
+					"description" : "The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"id" : 10,
+					"mode" : "auto"
+				},
+				"townHall" :
+				{
+					"name" : "Town Hall",
+					"description" : "The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"cost" :
+					{
+						"gold" : 2500
+					},
+					"id" : 11,
+					"requires" : [ "tavern" ],
+					"upgrades" : "villageHall"
+				},
+				"cityHall" :
+				{
+					"name" : "City Hall",
+					"description" : "The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"cost" :
+					{
+						"gold" : 5000
+					},
+					"requires" : [ "allOf", [ "mageGuild1" ], [ "blacksmith" ], [ "marketplace" ] ],
+					"id" : 12,
+					"upgrades" : "townHall"
+				},
+				"capitol" :
+				{
+					"name" : "Capitol",
+					"description" : "The Capitol earns your kingdom 4000 gold per day.",
+					"cost" :
+					{
+						"gold" : 10000
+					},
+					"id" : 13,
+					"requires" : [ "castle" ],
+					"upgrades" : "cityHall"
+				},
+				"marketplace" :
+				{
+					"name" : "Marketplace",
+					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 500
+					},
+					"id" : 14
+				},
+				"resourceSilo" :
+				{
+					"description" : "The Merchants Tent provides you with an additional +1 crystal each day.",
+					"name" : "Merchants Tent",
+					"cost" :
+					{
+						"ore" : 5,
+						"gold" : 5000
+					},
+					"requires" : [ "marketplace" ],
+					"id" : 15
+				},
+				"blacksmith" :
+				{
+					"description" : "The Blacksmith provides your armies with Ballista.",
+					"name" : "Blacksmith",
+					"cost" :
+					{
+						"wood" : 5,
+						"gold" : 1000
+					},
+					"id" : 16
+				},
+				"horde1" :
+				{
+					"description" : "The waterfall increases weekly production of centaurs by 8 per week.",
+					"id" : 18,
+					"name" : "Waterfall",
+					"upgrades" : "dwellingLvl1",
+					"cost" : {
+						"gold" : 1000
+					},
+				},
+				"ship" :
+				{
+					"name" : "Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
+					"id" : 20
+				},
+				"special1" :
+				{
+					"description" : "Increases the creature growth of each dwelling by 2 per week.",
+					"name" : "Well",
+					"cost" : {
+						"gold" : 500
+					},
+					"requires" : [ "resourceSilo" ],
+					"id" : 24
+				},
+				"statue" :
+				{
+					"description" : "The Statue earns your kingdom 250 gold per day.",
+					"produce" : { "gold" : 250 },
+					"name" : "Statue",
+						"cost" : {
+						"ore" : 5,
+						"gold" : 1250
+					},
+					"requires" : [ "mageGuild1" ],
+					"id" : 21
+				},
+				"grail" :
+				{
+					"description" : "Summon Stone increases weekly creature generation by 50 percent, adds 5000 gold per day (undetermined).",
+					"name" : "Summon Stone",
+					"id" : 26,
+					"mode" : "grail"
+				},
+				"dwellingLvl1" :
+				{
+					"description" : "Generates 8 Centaurs per week.",
+					"name" : "Cave",
+					"cost" : {
+						"gold" : 800
+					},
+					"id" : 30
+				},
+				"dwellingLvl2" :
+				{
+					"description" : "Generates 6 Gargoyles per week.",
+					"name" : "Crypt",
+					"cost" : {
+						"gold" : 1500,
+						"ore" : 10
+					},
+					"requires" : [ "dwellingLvl1" ],
+					"id" : 31
+				},
+				"dwellingLvl3" :
+				{
+					"description" : "Generates 4 Griffins per week.",
+					"name" : "Nest",
+					"cost" : {
+						"gold" : 2000
+					},
+					"requires" : [ "dwellingLvl2" ],
+					"id" : 32
+				},
+				"dwellingLvl4" :
+				{
+					"description" : "Generates 3 Minotaurs per week.",
+					"name" : "Maze",
+					"cost" : {
+						"gold" : 3000,
+						"gems" : 10
+						},
+					"requires" : [ "dwellingLvl3" ],
+					"id" : 33
+				},
+								
+				"dwellingLvl5" :
+				{
+					"description" : "Generates 2 Hydras per week.",
+					"name" : "Swamp",
+					"cost" : {
+						"gold" : 4000,
+						"sulfur" : 10
+						},
+					"requires" : [ "dwellingLvl3" ],
+					"id" : 34
+				},
+				"dwellingLvl6" :
+				{
+					"description" : "Generates 3 Medusas per week.",
+					"name" : "Lair",
+					"cost" : {
+						"gold" : 8000,
+						"ore" : 5,
+						"wood" : 5,
+						"sulfur" : 5,
+						"gems" : 5
+					},
+					"requires" : [ "dwellingLvl4" ],
+					"id" : 35
+				},
+				"dwellingLvl7" :
+				{
+					"description" : "Generates 1 Green Dragon Per week.",
+					"name" : "Green Tower",
+					"cost" : {
+						"gold" : 15000,
+	     				"ore" : 30,
+						"sulfur" : 20
+					},
+					"requires" : [ "allOf", [ "dwellingLvl4" ], [ "dwellingLvl5" ] ],
+					"id" : 36
+				},
+				"dwellingUpLvl4" :
+				{
+					"description" : "Upg. Generates 3 Minotaur Kings per week.",
+					"name" : "Upg. Maze",
+					"cost" : {
+						"mercury" : 5,
+						"ore" : 5,
+						"wood" : 5,
+						"gold" : 1500,
+						"crystal" : 5
+					},
+					"id" : 40,
+					"upgrades" : "dwellingLvl4"
+				},
+				"dwellingUpLvl7" :
+				{
+					"description" : "Upg. Generates 1 Red Dragon per week.",
+					"name" : "Red Tower",
+					"cost" : {
+						"ore" : 5,
+						"gold" : 5000,
+						"sulfur" : 10
+					},
+					"id" : 43,
+					"upgrades" : "dwellingLvl7"
+				},
+				"dwellingUpLvl8" :
+				{
+					"description" : "Upg. Generates 1 Black Dragon per week.",
+					"name" : "Black Tower",
+					"cost" : {
+						"ore" : 5,
+						"gold" : 5000,
+						"sulfur" : 10
+					},
+					"id" : 50,
+					"upgrades" : "dwellingUpLvl7"
+				}				
+			}
+		}
+	}
+}
+

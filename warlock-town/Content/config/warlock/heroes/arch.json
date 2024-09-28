@@ -1,0 +1,60 @@
+{
+	"h2arch" :
+	{
+		"class" : "h2warlock",
+        "texts" :
+		{
+			"name" : "Archibald Ironfist",
+			"biography" : "Archibald was one of two sons born to King Morglin Ironfist of Enroth sometime between the years of 1127 and 1129 AS, and was the brother of Roland Ironfist. After King Morglin died of old age in 1151, Archibald pulled out all the stops to be chosen as the next heir over Roland by the Seers of Enroth.",
+			"specialty" :
+			{
+				"description" : "Bonus, Minotaur",
+				"tooltip" : "Bonus, Minotaur",
+				"name" : "Minotaur"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "warlock/heroes/arch/spec-small.png",
+			"specialtyLarge" : "warlock/heroes/arch/spec-large.png",
+			"large" : "warlock/heroes/arch/arch.png",
+			"small" : "warlock/heroes/arch/archl.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "h2centaur",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "h2gargoyle",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "h2gargoyle",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "pathfinding"
+			},
+			{
+				"level" : "basic",
+				"skill" : "offence"
+			}
+		],
+		
+		"specialty" : {
+			"creature" : "h2mino"
+		}
+	}
+}
+

@@ -1,0 +1,65 @@
+{
+	"h2barok" :
+	{
+		"class" : "h2warlock",
+		"texts" :
+		{
+			"name" : "Barok",
+			"biography" : "Barok is a warlock through and through, sadly, that is complete with a mysterious past. He served Lord Alamar and lost, than goes on to continue this feat under Archibald Ironfist.",
+			"specialty" :
+			{
+				"description" : "Bonus, Chain Lightning",
+				"tooltip" : "Bonus, Chain Lightning",
+				"name" : "Chain Lightning"
+			}
+		},
+		"images" :
+		{
+			"specialtySmall" : "warlock/heroes/barok/spec-small.png",
+			"specialtyLarge" : "warlock/heroes/barok/spec-large.png",
+			"large" : "warlock/heroes/barok/barok.png",
+			"small" : "warlock/heroes/barok/barokl.png"
+		},
+
+		"army" :
+		[
+			{
+				"creature" : "h2centaur",
+				"max" : 30,
+				"min" : 20
+			},
+			{
+				"creature" : "h2gargoyle",
+				"max" : 10,
+				"min" : 5
+			},
+			{
+				"creature" : "h2griffin",
+				"max" : 4,
+				"min" : 3
+			}
+		],
+
+		"skills" :
+		[
+			{
+				"level" : "basic",
+				"skill" : "archery"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			}
+		],
+		
+		"specialty" : {
+			"bonuses" : {
+				"weakness" : {
+					"addInfo" : 0,
+					"subtype" : "spell.chainLightning",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
+				}
+			}
+		}
+	}
+}
