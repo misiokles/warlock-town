@@ -14,7 +14,7 @@
 
 		"town" :
 		{
-			"musicTheme" : "music/warlock/theme",
+			"musicTheme" : [ "music/warlock/theme" ],
 			"defaultTavern" : 5,
 			"tavernVideo" : "TAVERN.BIK",
 			"guildBackground" : "TPMAGE.bmp",
@@ -43,7 +43,6 @@
 			"horde" : [ 0, -1 ],
 			"mageGuild" : 3,
 			"primaryResource" : "crystal",
-			"warMachine" : "ballista",
 			"buildingsIcons" : "warlock/town-hall.def",
 			"icons" :
 			{
